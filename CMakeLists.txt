@@ -1,5 +1,5 @@
-project(aoc
-        LANGUAGES C)
-cmake_minimum_required(3.22)
+cmake_minimum_required(VERSION 3.22)
+
+project(aoc LANGUAGES C)
 
 add_executable(main main.c)
